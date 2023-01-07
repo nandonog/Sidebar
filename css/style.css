@@ -153,6 +153,10 @@ body {
         margin-left: 120px;
         transition: 300ms;
     }
+    .home-sobre {
+        margin-left: 222px;
+        margin-top: 25px;
+    }
 
     .content-timer {
         width: 90%;
