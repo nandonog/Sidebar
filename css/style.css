@@ -132,6 +132,12 @@ body {
         transition: 250ms;
     }
 
+    .logo-img {
+        height: 60px;
+        width: 60px;
+        margin-left: 12px;
+    }
+
     .nav-sidebar {
         align-items: center;
     }
@@ -146,5 +152,21 @@ body {
 
     .content-timer {
         width: 90%;
+    }
+
+    .timer-h1 {
+        font-size: 25px;
+    }
+
+    .content-timer .timer-h3 {
+        font-size: 30px;
+    }
+
+    .btn-time {
+        padding: 5px;
+    }
+
+    .btn-time button {
+        padding: 3px 7px;
     }
 }
