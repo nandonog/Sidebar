@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-body {
+.body-main {
     background-color: #121212;
     color: #fff;
 }
@@ -22,7 +22,7 @@ body {
     height: 100%;
     width: 240px;
     padding-left: 15px;
-    padding-top: 15px;
+    padding-top: 15px; 
     border-right: 2px solid #2f3336;
     transition: 250ms;
 }
@@ -81,6 +81,14 @@ body {
 .home-sobre {
     margin-left: 250px;
     margin-top: 25px;
+}
+
+.sidebar-body {
+    background-color: #fff;
+    color: #000;
+}
+.btn-tema button {
+    color: #000;
 }
 
 .title {
