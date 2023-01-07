@@ -28,6 +28,8 @@ msgSid.addEventListener('click', () => {
 
 })
 
+// Criando o Dark Mode
+
 tema.addEventListener('click', () => {
     bodyMain.classList.toggle('sidebar-body')
     temaBtn.classList.toggle('btn-tema')
