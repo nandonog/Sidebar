@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: #121212;
+    color: #fff;
+}
+
+.border {
+    border: 1px solid red;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    width: 240px;
+    padding-left: 15px;
+    padding-top: 15px;
+    border-right: 2px solid #2f3336;
+    transition: 250ms;
+}
+
+.sidebar-header {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.logo-img {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    transition: all 300ms;
+}
+.logo-img:hover {
+    transform: scale(1.3);
+}
+
+.nav-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.nav-sidebar button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    transition: all 300ms;
+    cursor: pointer;
+}
+.nav-sidebar button:hover {
+    transform: scale(1.2);
+}
+
+.nav-sidebar button i {
+   margin-right: 5px;
+}
+
+.home-sidebar {
+    margin-left: 250px;
+    margin-top: 6px;
+    transition: 300ms;
+
+}
+
+.home-sobre {
+    margin-left: 250px;
+    margin-top: 25px;
+}
+
+.content-timer {
+    background-color: #000000cb;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+}
+.content-timer .timer-h3 {
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 55px;
+}
+.btn-time button {
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #2f3336;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    transition: 200ms;
+}
+.btn-time button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.display-n {
+   display: none; 
+   transition: all 1s;
+}
+
+
+
+
+
+@media (width < 580px) {
+
+    .sidebar {
+        width: 110px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 250ms;
+    }
+
+    .nav-sidebar {
+        align-items: center;
+    }
+    .name-sidebar {
+        display: none;
+    }
+
+    .home-sidebar {
+        margin-left: 120px;
+        transition: 300ms;
+    }
+
+    .content-timer {
+        width: 90%;
+    }
+}
