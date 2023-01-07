@@ -83,6 +83,16 @@ body {
     margin-top: 25px;
 }
 
+.title {
+    margin: 25px auto;
+    width: 90%;
+}
+.descrition {
+    margin: 20px auto;
+    width: 90%;
+    font-size: 18px;
+}
+
 .content-timer {
     background-color: #000000cb;
     width: 70%;
@@ -154,7 +164,7 @@ body {
         transition: 300ms;
     }
     .home-sobre {
-        margin-left: 180px;
+        margin-left: 150px;
         margin-top: 25px;
     }
 
