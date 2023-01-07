@@ -141,6 +141,10 @@ body {
     .nav-sidebar {
         align-items: center;
     }
+
+    .nav-sidebar button:hover {
+        transform: scale(1.5);
+    }
     .name-sidebar {
         display: none;
     }
